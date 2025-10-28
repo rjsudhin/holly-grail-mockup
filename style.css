@@ -29,6 +29,11 @@ ul {
   align-items: center;
 }
 
+.header .logo {
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+
 .header .menu ul {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
