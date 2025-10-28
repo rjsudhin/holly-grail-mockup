@@ -137,6 +137,7 @@ ul {
   }
 
   .container .header {
+    order: -2;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -196,6 +197,27 @@ ul {
     }
   }
   /* Hamburger Menu */
+
+  /* Sidebar section */
+  .container .sidebar {
+    display: flex;
+    flex-wrap: wrap;
+    div {
+      min-height: 150px;
+      flex: 1 1 250px;
+      border-radius: .4rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  /* Sidebar section */
+
+  /* nav section */
+  .container .nav {
+    order: -2;
+  }
+  /* nav section */
 
 }
 /* Smaller Screens */
